@@ -17,3 +17,4 @@ time-libm.patch
 max_group_name_32_chars.patch
 70_gst-yelp.patch
 implicit_declaration.patch
+gcc15.patch

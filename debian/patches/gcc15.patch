@@ -1,0 +1,11 @@
+--- a/src/users/user-settings.c
++++ b/src/users/user-settings.c
+@@ -726,7 +726,7 @@
+ 			  }
+ 
+ 		  if (!is_admin_profile)
+-			  return user_settings_check_revoke_admin_rights (user);
++			  return user_settings_check_revoke_admin_rights ();
+ 	  }
+ 
+ 	g_object_unref (admin_group);
